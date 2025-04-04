@@ -1,0 +1,73 @@
+* {
+  margin:0;
+  padding: 0;
+  max-width: 460;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.body {
+  text-align: center;
+}
+.cabecera {
+  font-size: 30px;
+  color: white;
+  background-color: black;
+  padding:15px
+}
+
+.azul {
+color: white;
+padding: 200px;
+padding-left: 2%;
+background-color: rgb(0, 183, 255);
+text-align: left;
+}
+
+.botonverde{
+  background-color: rgb(27, 207, 27);
+  color: white;
+  padding: 20px 200px;
+  margin-top: 20px;
+  border-radius: 50px;
+  border: none;
+
+}
+.letrapequeña {
+  font-size: 7px;
+  padding-top: 30px;
+
+/* FLEXBOX de caja blanca*/
+}
+.blanco {
+  background-color:white;
+  padding: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 10px;
+  text-align: center;
+}
+li {
+  list-style-type: none;
+}
+.lista1 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* FLEXBOX */
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  gap: 15px;
+}
+.footer-bandera {
+  display: flex;
+  
+}
